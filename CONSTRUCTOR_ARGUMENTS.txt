@@ -10,4 +10,5 @@ safe_
 children_
 ["0x635593b7CdBD12E51aEFbB0b8fE96b5C5c35aEa9","0xADF682B8274eb6ed87A0fC92F5238A1975613391","0xF7693be0220Edea21Bb4d7A075D7322b0d3C6141"]
 
-Deploy FamilyTrustContinuous only. Value: 0. No initialize call.
+Deploy FamilyTrustContinuous 
+0x3a00692333A0b15A56C37d77e9bBa6A05C512e2e
