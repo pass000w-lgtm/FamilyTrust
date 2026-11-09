@@ -1,0 +1,519 @@
+{
+  "storage": [
+    {
+      "astId": 129,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "token",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_contract(IERC20)3656"
+    },
+    {
+      "astId": 131,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "funder",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_address"
+    },
+    {
+      "astId": 133,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "parentSafe",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_address"
+    },
+    {
+      "astId": 137,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "beneficiaries",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_array(t_address)3_storage"
+    },
+    {
+      "astId": 141,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "childPlusOne",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_mapping(t_address,t_uint8)"
+    },
+    {
+      "astId": 143,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "periodDuration",
+      "offset": 0,
+      "slot": "7",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 145,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "currentPeriod",
+      "offset": 0,
+      "slot": "8",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 147,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "nextDue",
+      "offset": 0,
+      "slot": "9",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 149,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "paused",
+      "offset": 0,
+      "slot": "10",
+      "type": "t_bool"
+    },
+    {
+      "astId": 152,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "pauseReason",
+      "offset": 1,
+      "slot": "10",
+      "type": "t_enum(PauseReason)83"
+    },
+    {
+      "astId": 154,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "operatingBalance",
+      "offset": 0,
+      "slot": "11",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 156,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "emergencyBalance",
+      "offset": 0,
+      "slot": "12",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 158,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "emergencyReserved",
+      "offset": 0,
+      "slot": "13",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 160,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "totalClaimable",
+      "offset": 0,
+      "slot": "14",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 162,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "discountAccumulated",
+      "offset": 0,
+      "slot": "15",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 164,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "entered",
+      "offset": 0,
+      "slot": "16",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 168,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "claimable",
+      "offset": 0,
+      "slot": "17",
+      "type": "t_array(t_uint256)3_storage"
+    },
+    {
+      "astId": 172,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "claimedThrough",
+      "offset": 0,
+      "slot": "20",
+      "type": "t_array(t_uint256)3_storage"
+    },
+    {
+      "astId": 178,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "periodAllocation",
+      "offset": 0,
+      "slot": "23",
+      "type": "t_mapping(t_uint256,t_array(t_uint256)3_storage)"
+    },
+    {
+      "astId": 182,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "hasAllocationOverride",
+      "offset": 0,
+      "slot": "24",
+      "type": "t_mapping(t_uint256,t_bool)"
+    },
+    {
+      "astId": 188,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "advancedFace",
+      "offset": 0,
+      "slot": "25",
+      "type": "t_mapping(t_uint256,t_array(t_uint256)3_storage)"
+    },
+    {
+      "astId": 194,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "advanceUsed",
+      "offset": 0,
+      "slot": "26",
+      "type": "t_mapping(t_uint256,t_array(t_bool)3_storage)"
+    },
+    {
+      "astId": 200,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "repaymentReserved",
+      "offset": 0,
+      "slot": "27",
+      "type": "t_mapping(t_uint256,t_array(t_uint256)3_storage)"
+    },
+    {
+      "astId": 208,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "repaymentTo",
+      "offset": 0,
+      "slot": "28",
+      "type": "t_mapping(t_uint256,t_mapping(t_uint8,t_mapping(t_uint8,t_uint256)))"
+    },
+    {
+      "astId": 214,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "storedClaims",
+      "offset": 0,
+      "slot": "29",
+      "type": "t_mapping(t_uint256,t_array(t_uint256)3_storage)"
+    },
+    {
+      "astId": 220,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "loanAcceptedInPeriod",
+      "offset": 0,
+      "slot": "30",
+      "type": "t_mapping(t_uint256,t_array(t_bool)3_storage)"
+    },
+    {
+      "astId": 222,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "emergencyCount",
+      "offset": 0,
+      "slot": "31",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 224,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "pendingEmergencyCount",
+      "offset": 0,
+      "slot": "32",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 229,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "emergencies",
+      "offset": 0,
+      "slot": "33",
+      "type": "t_mapping(t_uint256,t_struct(Emergency)110_storage)"
+    },
+    {
+      "astId": 233,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "pendingEmergencyId",
+      "offset": 0,
+      "slot": "34",
+      "type": "t_mapping(t_uint8,t_uint256)"
+    },
+    {
+      "astId": 235,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "loanCount",
+      "offset": 0,
+      "slot": "35",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 240,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "loans",
+      "offset": 0,
+      "slot": "36",
+      "type": "t_mapping(t_uint256,t_struct(Loan)126_storage)"
+    },
+    {
+      "astId": 244,
+      "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+      "label": "pendingLoanId",
+      "offset": 0,
+      "slot": "37",
+      "type": "t_mapping(t_uint8,t_uint256)"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_address)3_storage": {
+      "base": "t_address",
+      "encoding": "inplace",
+      "label": "address[3]",
+      "numberOfBytes": "96"
+    },
+    "t_array(t_bool)3_storage": {
+      "base": "t_bool",
+      "encoding": "inplace",
+      "label": "bool[3]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint256)3_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[3]",
+      "numberOfBytes": "96"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IERC20)3656": {
+      "encoding": "inplace",
+      "label": "contract IERC20",
+      "numberOfBytes": "20"
+    },
+    "t_enum(EmergencyStatus)89": {
+      "encoding": "inplace",
+      "label": "enum FamilyTrustContinuous.EmergencyStatus",
+      "numberOfBytes": "1"
+    },
+    "t_enum(LoanStatus)96": {
+      "encoding": "inplace",
+      "label": "enum FamilyTrustContinuous.LoanStatus",
+      "numberOfBytes": "1"
+    },
+    "t_enum(PauseReason)83": {
+      "encoding": "inplace",
+      "label": "enum FamilyTrustContinuous.PauseReason",
+      "numberOfBytes": "1"
+    },
+    "t_mapping(t_address,t_uint8)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint8)",
+      "numberOfBytes": "32",
+      "value": "t_uint8"
+    },
+    "t_mapping(t_uint256,t_array(t_bool)3_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => bool[3])",
+      "numberOfBytes": "32",
+      "value": "t_array(t_bool)3_storage"
+    },
+    "t_mapping(t_uint256,t_array(t_uint256)3_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => uint256[3])",
+      "numberOfBytes": "32",
+      "value": "t_array(t_uint256)3_storage"
+    },
+    "t_mapping(t_uint256,t_bool)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => bool)",
+      "numberOfBytes": "32",
+      "value": "t_bool"
+    },
+    "t_mapping(t_uint256,t_mapping(t_uint8,t_mapping(t_uint8,t_uint256)))": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => mapping(uint8 => mapping(uint8 => uint256)))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_uint8,t_mapping(t_uint8,t_uint256))"
+    },
+    "t_mapping(t_uint256,t_struct(Emergency)110_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => struct FamilyTrustContinuous.Emergency)",
+      "numberOfBytes": "32",
+      "value": "t_struct(Emergency)110_storage"
+    },
+    "t_mapping(t_uint256,t_struct(Loan)126_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => struct FamilyTrustContinuous.Loan)",
+      "numberOfBytes": "32",
+      "value": "t_struct(Loan)126_storage"
+    },
+    "t_mapping(t_uint8,t_mapping(t_uint8,t_uint256))": {
+      "encoding": "mapping",
+      "key": "t_uint8",
+      "label": "mapping(uint8 => mapping(uint8 => uint256))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_uint8,t_uint256)"
+    },
+    "t_mapping(t_uint8,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_uint8",
+      "label": "mapping(uint8 => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_struct(Emergency)110_storage": {
+      "encoding": "inplace",
+      "label": "struct FamilyTrustContinuous.Emergency",
+      "members": [
+        {
+          "astId": 98,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "applicant",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 100,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "approvalMask",
+          "offset": 1,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 103,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "status",
+          "offset": 2,
+          "slot": "0",
+          "type": "t_enum(EmergencyStatus)89"
+        },
+        {
+          "astId": 105,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "deadline",
+          "offset": 3,
+          "slot": "0",
+          "type": "t_uint64"
+        },
+        {
+          "astId": 107,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "amount",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 109,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "reason",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_string_storage"
+        }
+      ],
+      "numberOfBytes": "96"
+    },
+    "t_struct(Loan)126_storage": {
+      "encoding": "inplace",
+      "label": "struct FamilyTrustContinuous.Loan",
+      "members": [
+        {
+          "astId": 112,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "borrower",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 114,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "lender",
+          "offset": 1,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 117,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "status",
+          "offset": 2,
+          "slot": "0",
+          "type": "t_enum(LoanStatus)96"
+        },
+        {
+          "astId": 119,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "createdPeriod",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 121,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "repayPeriod",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 123,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "principal",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 125,
+          "contract": "FamilyTrustContinuous.sol:FamilyTrustContinuous",
+          "label": "repayment",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "160"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint64": {
+      "encoding": "inplace",
+      "label": "uint64",
+      "numberOfBytes": "8"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

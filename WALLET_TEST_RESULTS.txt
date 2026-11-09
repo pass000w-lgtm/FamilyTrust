@@ -1,0 +1,8 @@
+PASS legacy MetaMask and immutable provider objects.
+PASS EIP-6963 MetaMask discovery when another wallet owns window.ethereum.
+PASS delayed EIP-6963 and ethereum#initialized injection.
+PASS distinct diagnostics for preview iframe, file:// and localhost.
+PASS no silent fallback to unrelated wallets.
+PASS full DApp connect() with EIP-6963 only (no window.ethereum).
+PASS general local EVM frontend regression for deposits, settlement, advance and payout.
+Environment: Node VM mocks for wallet discovery; local Ganache for existing trust UI regression. No real user browser or MetaMask extension session inspected.

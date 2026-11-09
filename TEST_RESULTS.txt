@@ -1,0 +1,16 @@
+Compiler: 0.8.34+commit.80d5c536.Emscripten.clang
+EVM shanghai; optimizer 200; viaIR false
+Runtime bytes 17997
+Local Ganache only; Safe uses a two-distinct-owner test harness, not official Safe deployment.
+No Sepolia writes performed.
+PASS: Single direct deployment, atomic constructor validation; no initializer, proxy or upgrade entry point
+PASS: Flexible deposits, 5000 reserve partition, 20-second due gate, 500 each
+PASS: Safe-only pause/recovery; paused claims remain withdrawable and cannot be confiscated
+PASS: No catch-up after long pause; shortage records pause without increment; refill resumes SAME next period
+PASS: Advance discount, sibling loan from unsettled wallet claim, future allocation locks and repayment
+PASS: Other-two emergency signatures; fresh deposits refill reserve; full recovery protects claims and reservations
+PASS: Direct token transfers reconcile once without double booking
+PASS: External keeper hook transfers 500 FAM to EACH wallet without beneficiary withdrawal; continues after SIX
+PASS: Time alone does not execute payments: external transaction is required
+PASS: Long-running payout stays bounded (3 children), historical claims cannot be spent twice
+PASS: Automation shortage pause, no partial payments, refill then fresh wait, manual pause protected

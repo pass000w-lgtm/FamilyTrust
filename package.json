@@ -1,0 +1,14 @@
+{
+  "name": "family-trust-continuous-single",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node tests/contracts.cjs && node build-ui.cjs && node tests/ui.cjs && node tests/safe-admin.cjs && node tests/wallet-discovery.cjs && node tests/wallet-connect.cjs"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "ethers": "6.14.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.34"
+  }
+}

@@ -1,0 +1,14 @@
+Official @safe-global/safe-contracts 1.4.1 artifacts on local Ganache, chain ID 11155111.
+Includes real Safe singleton, SafeProxyFactory-created Safe proxy, and MultiSendCallOnly.
+Frontend uses EIP-712 signatures and directly executes the existing Safe.
+No Sepolia writes or real browser MetaMask UI actions performed.
+
+PASS official Safe 1.4.1 proxy: two typed signatures pause trust; one signature and duplicate signer rejected
+PASS manual pause resumes through the SAME existing Safe and trust
+PASS allocation proposal and first signature survive page reload and parent account switch
+PASS official MultiSendCallOnly batch pauses and recovers operating funds atomically
+PASS child role, wrong network and altered transaction target rejected
+PASS cancellation transaction invalidates old signatures by advancing Safe nonce
+PASS Safe ExecutionFailure is never reported as a successful trust change
+PASS condition failure does not mark a proposal executed
+ALL SAFE ADMIN CHECKS PASSED (official Safe 1.4.1, local chain only; no Sepolia writes)
