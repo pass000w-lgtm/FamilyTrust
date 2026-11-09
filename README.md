@@ -121,13 +121,9 @@ node build-ui.cjs
 
 | 路徑 | 用途 |
 |---|---|
-| `FamilyTrustContinuous.sol` | 不可升級、持續給付的信託合約 |
+| `FamilyTrustContinuous.sol` | 信託合約 |
 | `FamilyTrustContinuous.abi.json` | 合約 ABI |
-| `FamilyTrust_Continuous_DApp.html` | 可直接使用的完整前端 |
+| `FamilyTrust_Continuous_DApp.html` | 前端 |
 | `app.js` | 鏈上讀取與受益人操作 |
 | `safe-admin.js` | 父母 Safe EIP-712 簽署與執行 |
-| `wallet-discovery.js` | MetaMask 與 EIP-6963 偵測 |
-| `tests/` | 合約、前端、Safe 與錢包測試 |
-| `docs/slides/` | 報告簡報 |
-| `README_先讀這份.md` | 詳細部署、入金與操作說明 |
 
