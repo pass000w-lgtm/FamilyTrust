@@ -1,8 +1,7 @@
-# 家庭基金 Family Fund：持續給付版
+家庭基金 Family Fund
 
-本次只更新操作介面，已部署的同版單一信託可直接沿用，不需重新部署。信託本身只需部署 `FamilyTrustContinuous.sol` 的 `FamilyTrustContinuous` 一個合約。既有 FAM 代幣與父母 Safe 繼續使用，不需要代理合約、邏輯合約或另外呼叫 initialize。
 
-## 給付與手足借款：維持原版兩種操作
+給付與手足借款
 
 | 操作 | 結果 |
 |---|---|
