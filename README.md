@@ -2,7 +2,7 @@
 
 在 Ethereum Sepolia 上運作的家庭式鏈上信託專案，包含一個不可升級的持續給付合約，以及可連接 MetaMask 的網頁操作介面。父母以 2／2 Safe 管理，三位子女領取生活費並申請彈性給付。
 
-[重點查看(其他的不太重要，Dapp跟一些東西都AI生的)]
+## 重點查看(其他的不太重要，Dapp跟一些東西都AI生的)
 
 - [信託合約原始碼](FamilyTrustContinuous.sol)
 - [DApp 操作介面](FamilyTrust_Continuous_DApp.html)
