@@ -8,9 +8,7 @@
 - [DApp 操作介面](FamilyTrust_Continuous_DApp.html)（下載後以本機網站開啟）
 - [簡報 PDF](docs/slides/FamilyFund_Midterm.pdf)
 - [可編輯 PowerPoint](docs/slides/FamilyFund_Midterm.pptx)
-- [簡報與最新版介面的差異](docs/slides/README.md)
 - [部署與操作說明](README_先讀這份.md)
-- [測試與驗證範圍](docs/TESTING.md)
 
 ## 情境與角色
 
@@ -47,7 +45,7 @@
 - `withdrawAll()` 讓受益人領取自己的未領款。
 - `checkUpkeep()`／`performUpkeep()` 提供外部執行器可使用的介面。
 
-20 秒是最早可執行時間。合約需要交易觸發，本專案沒有設定持續運作的外部執行器。DApp 的定時重新讀取只查詢資料。示範借款時先按「只結算」，避免出借人的當期未領款先轉出。
+20 秒是最早可執行時間。示範借款時先按「只結算」，避免出借人的當期未領款先轉出。
 
 ## 執行 DApp
 
